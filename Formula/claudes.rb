@@ -1,28 +1,28 @@
 class Claudes < Formula
   desc "Manage Claude Code sessions: list, pin, restart, pause, and resume"
   homepage "https://github.com/uvw/claudes"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/uvw/claudes/releases/download/v0.5.0/claudes_0.5.0_darwin_arm64.tar.gz"
-      sha256 "d84dbf8d59cfe7306362534a5699ff1d01e99f42a0a54c2f3f204e3e59801670"
+      url "https://github.com/uvw/claudes/releases/download/v0.6.0/claudes_0.6.0_darwin_arm64.tar.gz"
+      sha256 "11e9ef3b52af862dda99d9a971d9151c6b41cc631e4dc70f257527834edea6a8"
     end
     on_intel do
-      url "https://github.com/uvw/claudes/releases/download/v0.5.0/claudes_0.5.0_darwin_amd64.tar.gz"
-      sha256 "bf11ac46f2e756f7584179f258f403428956cab25bdcddf12a0d201b3370ef58"
+      url "https://github.com/uvw/claudes/releases/download/v0.6.0/claudes_0.6.0_darwin_amd64.tar.gz"
+      sha256 "0b80fed6eeb192798f27bbff5c69d96d919d643bd771e23d7243b59efe69db34"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/uvw/claudes/releases/download/v0.5.0/claudes_0.5.0_linux_arm64.tar.gz"
-      sha256 "bce48a0fb846f496d9fc9262be5e20d9b13e00bef5792437e1e2ec2ba80563ce"
+      url "https://github.com/uvw/claudes/releases/download/v0.6.0/claudes_0.6.0_linux_arm64.tar.gz"
+      sha256 "45a5eae9e8dcf1b6549a635457afada5daf679dcc7738d2109efd0c242f7b591"
     end
     on_intel do
-      url "https://github.com/uvw/claudes/releases/download/v0.5.0/claudes_0.5.0_linux_amd64.tar.gz"
-      sha256 "940b3a5184c6f35965c77ef630f99098a0273c9eef83525b397917ae0db276e5"
+      url "https://github.com/uvw/claudes/releases/download/v0.6.0/claudes_0.6.0_linux_amd64.tar.gz"
+      sha256 "00e285ff03781d4c7a8f2d250bc373ac480670b9ab7529be1eeb7408cec4b92c"
     end
   end
 
