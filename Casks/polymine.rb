@@ -1,13 +1,13 @@
 cask "polymine" do
-  version "0.1.1"
+  version "0.2.0"
 
   on_arm do
     url "https://github.com/uvw/polymine/releases/download/v#{version}/Polymine_#{version}_aarch64.dmg"
-    sha256 "c5a7fe5cf1add1576b9d4dfe0c9f32f43a7cdbf240ec30eb67f543ebde2c0892"
+    sha256 "9eeec162b66a9df91366c6bab5b29bca2fe94e86f0624c9ff205e2fcbcf78fde"
   end
   on_intel do
     url "https://github.com/uvw/polymine/releases/download/v#{version}/Polymine_#{version}_x64.dmg"
-    sha256 "e95d5106a6b4ba3c59f015cbf20353ff22bcb12594d51b9be13a931c57ce8481"
+    sha256 "df09a92110caa92fa6235d31778d6fbc6cd5f97249ca01194cdc0d37ed169714"
   end
 
   name "Polymine"
